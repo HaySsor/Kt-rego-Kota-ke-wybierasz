@@ -14,3 +14,6 @@ h1, h2 {
   justify-content: center;
   align-items: flex-end;
 }
+.score span{
+  color: royalblue;
+}
