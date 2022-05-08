@@ -18,5 +18,7 @@ Dodaj funkcjonalność która:
 2. po wciśnięciu przycisku "Cute!" drugi karta powinna się zamienić
 
 ### Punkty bonusowe
-
 - zadbaj o to aby ten sam kot nie wyświetlił się dwa razy podczas jednej sesji.
+
+
+live https://stackblitz.com/edit/pies-czy-kot-tmxsfd?file=index.js,README.md
