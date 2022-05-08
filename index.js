@@ -6,7 +6,10 @@ const photo2 = document.querySelector('[data-photo="2"]');
 const button1 = document.querySelector('[data-button="1"]');
 const button2 = document.querySelector('[data-button="2"]');
 const catsThatWas = [];
-
+let rigthSide = 1
+let LeftSide = 1
+const counter1 = document.querySelector('.counter1')
+const counter2 = document.querySelector('.counter2')
 function RandomThatCat() {
   let randomindex = Math.floor(Math.random() * 1000);
   return randomindex;
@@ -34,8 +37,13 @@ function RandomPhoto(photoIndex) {
 }
 
 button1.addEventListener('click', () => {
+  counter1.textContent = LeftSide
+  LeftSide ++
   RandomPhoto(photo2);
 });
 button2.addEventListener('click', () => {
+  counter2.textContent = rigthSide
+  rigthSide++
   RandomPhoto(photo1);
 });
+
